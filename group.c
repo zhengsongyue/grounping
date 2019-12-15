@@ -59,18 +59,18 @@ int main()
 	BlockID = 0; 
 	printf("printing Block - 0\n");	
 	for(i = 2; i < 11; i+=2) {
-		printf("grade of Block[0].rankSchool[%d] is: %d\n", i, Beijing->Block[0].rankSchool[i].grade);
-		printf("class of Block[0].rankSchool[%d] is: %d\n", i, Beijing->Block[0].rankSchool[i].class);
-		printf("ID of Block[0].rankSchool[%d] is: %d\n", i, Beijing->Block[0].rankSchool[i].ID);
+		printf("grade of Block[0].rankSchool[%d] is: %d\n", i, Beijing->Block[BlockID].rankSchool[i].grade);
+		printf("class of Block[0].rankSchool[%d] is: %d\n", i, Beijing->Block[BlockID].rankSchool[i].class);
+		printf("ID of Block[0].rankSchool[%d] is: %d\n", i, Beijing->Block[BlockID].rankSchool[i].ID);
 		printf("*************\n");
 	}
 	
 	BlockID = 1; 
 	printf("printing Block - 1\n");
 	for(i = 1; i < 11; i+=2) {
-		printf("grade of Block[1].rankSchool[%d] is: %d\n", i, Beijing->Block[1].rankSchool[i].grade);
-		printf("class of Block[1].rankSchool[%d] is: %d\n", i, Beijing->Block[1].rankSchool[i].class);
-		printf("ID of Block[1].rankSchool[%d] is: %d\n", i, Beijing->Block[1].rankSchool[i].ID);
+		printf("grade of Block[1].rankSchool[%d] is: %d\n", i, Beijing->Block[BlockID].rankSchool[i].grade);
+		printf("class of Block[1].rankSchool[%d] is: %d\n", i, Beijing->Block[BlockID].rankSchool[i].class);
+		printf("ID of Block[1].rankSchool[%d] is: %d\n", i, Beijing->Block[BlockID].rankSchool[i].ID);
 		printf("*************\n");
 	}
  
